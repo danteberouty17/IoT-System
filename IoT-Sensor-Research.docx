@@ -1,0 +1,25 @@
+﻿1. Moisture Measurement for Fridges
+Sensor Name: Moisture Meter (from Dataniz)
+
+2. Water Consumption Measurement for Dishwasher
+Sensor Name: YF-S201 Water Flow Sensor
+    • Type of Sensor: Digital (Pulse output)
+    • Description: Utilizes a turbine wheel and a Hall effect sensor to measure water flow rate. It outputs pulses proportional to the flow rate, which can be integrated over time to calculate total water consumption.
+    • Sensor Range:
+        ◦ Flow Rate: 1 to 30 Liters per Minute (L/min)
+    • Desired Value:
+        ◦ Minimum: 0 L/min
+        ◦ Maximum: 10 L/min
+    • Unit of Measurement: Liters per Minute (L/min) for flow rate; Liters (L) for total consumption
+
+3. Electricity Consumption Measurement for Fridges and Dishwasher
+Sensor Name: PZEM-004T AC Power Meter Module
+    • Type of Sensor: Digital (Serial communication)
+    • Description: Measures AC voltage, current, power, and energy consumption. Suitable for monitoring household appliances and communicates via a serial interface for easy data retrieval.
+    • Sensor Range:
+        ◦ Energy: 0kWh to 9999kWh
+    • Desired Value:
+        ◦ Minimum: 0 kWh (before operation)
+        ◦ Maximum: 2 kWh per wash cycle
+    • Unit of Measurement: Kilowatt-hours (kWh)
+
